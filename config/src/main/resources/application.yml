@@ -2,13 +2,13 @@ example:
   family:
     father:
       age: 32
-      sex: man
+      sex: male
       name: Lisi
     mother:
       age: 30
-      sex: woman
+      sex: female
       name: ZhangMeili
     son:
       age: 5
-      sex: man
+      sex: male
       name: LiDachui

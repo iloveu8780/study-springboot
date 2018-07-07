@@ -1,16 +1,12 @@
 package com.springboot.example.config.domain;
 
 import lombok.Data;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.stereotype.Component;
 
 
 @Data
-@Component
 @Configuration
 @ConfigurationProperties("example.family.father")
 public class Family {

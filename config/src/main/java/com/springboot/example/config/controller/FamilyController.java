@@ -1,10 +1,7 @@
 package com.springboot.example.config.controller;
 
-import com.springboot.example.config.domain.Family;
 import com.springboot.example.config.domain.Person;
 import lombok.Data;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -34,10 +31,4 @@ public class FamilyController {
 
         return result;
     }
-
-    /*@GetMapping("/father")
-    public String father() {
-        System.out.println(family.getFatherMap());
-        return family.getFatherMap().toString();
-    }*/
 }
