@@ -1,0 +1,14 @@
+example:
+  family:
+    father:
+      age: 32
+      sex: man
+      name: Lisi
+    mother:
+      age: 30
+      sex: woman
+      name: ZhangMeili
+    son:
+      age: 5
+      sex: man
+      name: LiDachui
